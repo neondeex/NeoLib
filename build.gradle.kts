@@ -47,7 +47,6 @@ dependencies {
     implementation("com.github.retrooper:packetevents-spigot:2.12.1")
     implementation("com.github.cryptomorin:XSeries:13.6.0")
     implementation("de.tr7zw:item-nbt-api:2.15.7")
-    compileOnly("emaki.jiuwu.craft:emaki-corelib:3.4.0")
 
     // --- CompileOnly (NO van en el JAR, son plugins externos) ---
     // VaultAPI trae bukkit 1.13 como transitivo - lo excluimos, Paper ya lo provee
