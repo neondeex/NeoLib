@@ -50,3 +50,11 @@ This branch targets:
 - InvUI 2.2.0
 
 Keep NeoLib in `server/plugins/` before loading plugins that depend on it.
+
+## License
+
+NeoLib is licensed under the [GNU General Public License v3.0](LICENSE).
+
+This is a **strong copyleft** license: anyone who uses, modifies, or distributes
+NeoLib (or works based on it) must release their source code under the same
+GPL-3.0 terms. In short, no closed-source derivatives allowed.
