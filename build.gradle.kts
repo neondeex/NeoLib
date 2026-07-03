@@ -44,7 +44,7 @@ dependencies {
     implementation("net.wesjd:anvilgui:1.10.12-SNAPSHOT")
     implementation("com.github.Tofaa2.EntityLib:spigot:2.4.11")
     compileOnly("dev.jorel:commandapi-paper-core:11.2.0")
-    implementation("com.github.retrooper:packetevents-spigot:2.12.1")
+    implementation("com.github.retrooper:packetevents-spigot:2.13.0")
     implementation("com.github.cryptomorin:XSeries:13.6.0")
     implementation("de.tr7zw:item-nbt-api:2.15.7")
 
