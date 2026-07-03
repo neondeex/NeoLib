@@ -1,5 +1,5 @@
 name: NeoLib
-version: 1.0-SNAPSHOT
+version: ${version}
 main: me.neondeex.neolib.NeoLib
 api-version: '26.2'
 author: neondeex

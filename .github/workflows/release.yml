@@ -44,7 +44,9 @@ jobs:
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Build jar
-        run: ./gradlew jar -PreleaseVersion=${{ steps.version.outputs.version }}
+        run: |
+          chmod +x ./gradlew
+          ./gradlew jar -PreleaseVersion=${{ steps.version.outputs.version }}
 
       - name: Create release
         env:
