@@ -1,0 +1,14 @@
+name: NeoLib
+version: 1.0-SNAPSHOT
+main: me.neondeex.neolib.NeoLib
+api-version: '26.2'
+author: neondeex
+description: Libreria central para plugins de neondeex
+
+depend:
+  - CommandAPI
+
+soft-depend:
+  - Vault
+  - PlaceholderAPI
+  - WorldGuard
