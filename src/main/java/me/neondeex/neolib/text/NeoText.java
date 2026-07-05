@@ -15,7 +15,12 @@ public final class NeoText {
 
     public static Component component(String text) {
         String safe = text == null ? "" : text;
-        Component component = safe.indexOf('&') >= 0 ? LEGACY.deserialize(safe) : MINI_MESSAGE.deserialize(safe);
+        Component component;
+        if (safe.contains("<") && safe.contains(">")) {
+            component = MINI_MESSAGE.deserialize(safe);
+        } else {
+            component = safe.indexOf('&') >= 0 ? LEGACY.deserialize(safe) : MINI_MESSAGE.deserialize(safe);
+        }
         return component.decoration(TextDecoration.ITALIC, false);
     }
 
